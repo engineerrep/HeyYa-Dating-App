@@ -2,8 +2,6 @@
 
 A dating app that user should upload video as profile element.
 
-
-
 #### 目录说明
 
 ```bash
@@ -29,8 +27,6 @@ assets # 公共静态资源目录
     
 main_dev.dart  # 开发环境入口文件
 main_prod.dart  # 生产环境入口文件
-```
-
 
 
 #### 一、项目使用第三方框架
@@ -40,54 +36,19 @@ main_prod.dart  # 生产环境入口文件
 ###### 网络请求：Dio
 
 
-
-
-
 #### 二、封装/模块
-
-
 
 ###### <!--封装工具类-->
 
-*Jarry*
-
 - 封装Snackbar、Dialog、BottomSheet （类方法、GetX）
-
 - 封装路由（GetX）
-
 - 主题配置（GetX）
-
 - 字体封装
-
-  
-
-*Jackson*
-
 - 网络请求
 - Session、token用户数据
-
-*Brad*
-
 * 图片选取
 * 图片获取
 * 图片浏览
-
-
-
-###### <!--页面-->
-
-```Dart
-//Jarry
-视频相关
-
-// Jackson
-登录页、IM页面、导航栏、常规按钮封装
-  
-// Brad
-Spark
-  
-```
-
 
 
 ###### <!--组件化？-->
@@ -98,7 +59,6 @@ Spark
 //组件化开发
 
 如果有IM，考虑组件化开发，避免和getx的架构混在一起
-```
 
 
 
@@ -363,23 +323,13 @@ class AllControllerBinding implements Bindings {
 
 * ~~使用 flutterassetautocompletion插件（图片资源路径补全~~
 
-#### 四、链接
-
-
+#### 四、参考链接
 
 [GetX插件](https://segmentfault.com/a/1190000039139198#item-2-3)
 
 [GetX Cli](https://segmentfault.com/a/1190000040705687)
 
 [Flutter实战·第二版](https://book.flutterchina.club/preface.html#%E7%AC%AC%E4%BA%8C%E7%89%88%E5%8F%98%E5%8C%96)
-
-
-
-
-
-# 
-
-
 
 This project is a starting point for a Flutter application.
 
