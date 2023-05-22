@@ -1,9 +1,8 @@
-import 'package:flutter/material.dart';
+// ignore_for_file: non_constant_identifier_names
 import 'package:get/get.dart';
 import 'package:heyya/app/core/utils/hey_snack_bar.dart';
 import 'package:heyya/app/routes/app_pages.dart';
 import 'package:heyya/config.dart';
-
 import 'package:tim_ui_kit/tim_ui_kit.dart';
 
 class ImManager {
@@ -22,19 +21,9 @@ class ImManager {
 
   Future<bool?> initSdk() async {
     return _coreInstance.init(
-        sdkAppID: im_sdkAppID, // 控制台申请的 SDKAppID
+        sdkAppID: im_sdkAppID,
         loglevel: LogLevelEnum.V2TIM_LOG_DEBUG,
-        //   //TODO: jackson, 监听账号状态
         listener: V2TimSDKListener());
-
-    // @Deprecated
-    // TencentImSDKPlugin.v2TIMManager.initSDK(
-    //   sdkAppID: 1400621113,
-    //   loglevel: BuildConfig.instance.environment == Environment.DEVELOPMENT ? LogLevelEnum.V2TIM_LOG_DEBUG : LogLevelEnum.V2TIM_LOG_NONE, // Log
-    //
-
-    //   listener: V2TimSDKListener(),
-    // );
   }
 
   signOut() {
@@ -60,14 +49,5 @@ class ImManager {
         type: 1,
         userID: im_id_prefix + userId);
     Get.toNamed(Routes.CHAT, arguments: conversation);
-
-    // await Navigator.push(
-    //     context,
-    //     MaterialPageRoute(
-    //       builder: (context) => Chat(
-    //         selectedConversation: selectedConv!,
-    //       ),
-    //     ));
-    // _controller.reloadData();
   }
 }

@@ -6,16 +6,16 @@ How to get yourself a new dating app? just contact us for details.
 */
 
 //production url
-const product_base_url = "https://api.heyya.link";
+const product_base_url = "";
 
 //development url
-const develop_base_url = "http://curvy.datingpass.top:18200";
+const develop_base_url = "";
 
 //im sdk id
-const im_sdkAppID = 1400621113;
+const im_sdkAppID = 0;
 
 //terms of use url
-const terms_of_use = "https://www.heyya.link/terms-of-use.html";
+const terms_of_use = "";
 
 //private policy url
-const private_policy = "https://www.heyya.link/privacy-policy.html";
+const private_policy = "";
