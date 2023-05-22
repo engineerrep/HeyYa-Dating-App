@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1034381393042",
+    "project_id": "heyya-99ace",
+    "storage_bucket": "heyya-99ace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034381393042:android:17e0636831a5762f20ba4b",
+        "android_client_info": {
+          "package_name": "com.heyyateam.heyya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034381393042-7uj381qvsmkiaa7jgk793h0df63uq4vu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.heyyateam.heyya",
+            "certificate_hash": "ab74381f75b56d18a5ee9f225f68ae4162a7a35c"
+          }
+        },
+        {
+          "client_id": "1034381393042-cnlh2ohh7a4ivpil059h9rpu299lg7jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAvMZMZHOG98sZJl27HT6ElMiXHaoDe1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034381393042-cnlh2ohh7a4ivpil059h9rpu299lg7jd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1034381393042-85iv1ni1nl7oh02bihhqqsdl6muvak0o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.heyyateam.heyya"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
