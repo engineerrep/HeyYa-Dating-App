@@ -1,6 +1,6 @@
 # HeyYa: Dating with Selfie Video
-A dating app that user should upload selfie video as profile element.
-
+HeyYa is a dating app which users must upload a selfie video. Through selfie video authentication, it is guaranteed that all users are real.
+ 
 # How it works?
 You can check our online product in google: https://play.google.com/store/apps/details?id=com.heyyateam.heyya
 
