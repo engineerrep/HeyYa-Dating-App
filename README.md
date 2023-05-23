@@ -1,5 +1,5 @@
 # HeyYa项目说明
-中文版|[英文版](https://github.com/engineerrep/HeyYa-Dating-App/blob/main/README_EN.md)
+中文版|[English](https://github.com/engineerrep/HeyYa-Dating-App/blob/main/README_EN.md)
 
 ## 1.项目简介
 ### 1.1项目概述
@@ -334,9 +334,9 @@ class AllControllerBinding implements Bindings {
 ## 3.贡献指南
 欢迎大家参与贡献！HeyYa 是一个开源项目，感谢各位的热情支持。
 
-### 3.2提问和提交Bug报告  
+### 3.1提问和提交Bug报告  
 如果您在使用应用程序的过程中遇到任何疑问或错误，请在 GitHub中提交Issue。请详细说明您遇到的问题，并提供截屏或错误日志(如果有)以帮助我们理解和诊断问题。
-### 3.3功能请求和变更建议   
+### 3.2功能请求和变更建议   
 如果您有任何功能请求或变更建议，请在GitHub提交Issue说明您的想法及理由。我们欢迎和鼓励社区参与，与我们一起改进和优化应用程序。
 
 ## 4.参考链接
