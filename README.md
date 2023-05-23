@@ -1,71 +1,69 @@
 # heyya
-A dating app that user should upload video as profile element.
+A dating app that user should upload selfie video as profile element.
 
 
 
-#### 目录说明
+#### Introduction
 
 ```bash
 app
-├── bindings # Bindings加载
-├── core # 常规类
-│   ├── enum # 枚举
-│   ├── util # 工具类
-│   ├── values # 常量
-│   └── widget # 基本控件
-├── data # 数据
-│   ├── local # 本地缓存
-│   ├── model # model定义
-│   ├── repository # model操作，网络请求
-├── flavors # 环境配置，类似xcode的scheme
-├── module # 应用模块
-├── network # 网络请求
-└── routes # 路由
+├── bindings # Bindings
+├── core # tool class for basic business
+│   ├── enum # 
+│   ├── util # 
+│   ├── values # 
+│   └── widget # 
+├── data # data model and repository
+│   ├── local # 
+│   ├── model # 
+│   ├── repository #
+├── flavors # environment configuration
+├── module # app pages
+├── network # network
+└── routes # 
 
-assets # 公共静态资源目录
-    ├── images # 图片
+assets # 
+    ├── images # 
     └── json 
     
-main_dev.dart  # 开发环境入口文件
-main_prod.dart  # 生产环境入口文件
+main_dev.dart  # Development environment entry file
+main_prod.dart  # Production environment entry file
 
 
-#### 一、项目使用第三方框架
+#### 一、The project uses a third-party framework
 
-###### 总体框架：[GetX](https://www.liujunmin.com/flutter/getx/introduction.html#navigation%E8%B7%AF%E7%94%B1%E8%B7%B3%E8%BD%AC) [4.6.5](https://pub.dev/packages/get)
+###### GetX (https://www.liujunmin.com/flutter/getx/introduction.html#navigation%E8%B7%AF%E7%94%B1%E8%B7%B3%E8%BD%AC) [4.6.5](https://pub.dev/packages/get)
 
-###### 网络请求：Dio
-
-
-#### 二、封装/模块
-
-###### <!--封装工具类-->
-
-- 封装Snackbar、Dialog、BottomSheet （类方法、GetX）
-- 封装路由（GetX）
-- 主题配置（GetX）
-- 字体封装
-- 网络请求
-- Session、token用户数据
-* 图片选取
-* 图片获取
-* 图片浏览
+###### Network：Dio
 
 
-###### <!--组件化？-->
+#### 二、Package/Module
 
-[链接](https://juejin.cn/post/7006236078218674207)
+###### <!--Packaging tools-->
+
+- Package Snackbar、Dialog、BottomSheet （Class method、GetX）
+- Routes（GetX）
+- Theme（GetX）
+- Fonts
+- Network
+- Session,Account and User
+- Albums
+- Albums for uploading
+
+
+
+###### <!--Componentization-->
+
+[Link](https://juejin.cn/post/7006236078218674207)
 
 ```Dart
-//组件化开发
-
-如果有IM，考虑组件化开发，避免和getx的架构混在一起
+If there is IM, consider componentized development and avoid mixing with getx architecture
 
 
 
-#### 三、书写规范
+#### 三、Coding style
 
-##### 1. 响应式使用属性.obs写法，不用使用Rx写法
+##### 1. Responsive use attribute .obs writing method instead of Rx writing method
 
 ```dart
 // Instantiate
@@ -73,7 +71,7 @@ var name = "Ax".obs
   
 // Use Obx(()=> to update Text() whenever count is changed.
 child: Obx(() => Text(
-              "我的名字是 ${name.value}",
+              "My name is ${name.value}",
               style: TextStyle(color: Colors.red, fontSize: 30),
             )),
 
@@ -84,7 +82,7 @@ child: GetBuilder<GetxController>(
   })
   
  
-// 其它写法 1
+// or 1
 ValueBuilder<bool>(
   initialValue: false,
   builder: (value, updateFn) => Switch(
@@ -96,7 +94,7 @@ ValueBuilder<bool>(
   onDispose: () => print("Widget unmounted"),
 ),
 
-// 其它写法 2
+// or 2
 ObxValue((data) => Switch(
         value: data.value,
         onChanged: data, // Rx has a _callable_ function! You could use (flag) => data.value = flag,
@@ -108,7 +106,7 @@ ObxValue((data) => Switch(
 
 
 
-##### 如果页面只有一个控制器，使用 GetxController + GetView ? (代码未测试)
+##### If the page has only one controller, use GetxController + GetView
 
 ```dart
  class AwesomeController extends GetController {
@@ -223,33 +221,33 @@ print( user );
 
 
 
-##### 3. Model类
+##### 3. Model class
 
-`Model使用自动生成插件，在generation文件夹内，对代码没入侵，Model类里面不要写自定义方法`
+`Model uses auto-generated plug-ins. In the generation folder, there is no intrusion into the code. Do not write custom methods in the Model class.`
 
-<!--GetxController，作为数据定义、业务逻辑处理、网络请求的类-->
+<!--GetxController，Class as data definition, business logic processing, network request-->
 
 ```dart
-// 网络请求写法 
+// network works like
 controller.fetchXXXApi();
 
-// 更新数据
+// update data
 controller.updateXXX();
 
 
 ```
 
-##### 4. 网络请求和model操作
+##### 4. Network requests and model operations
 
 ```dart
-// repository 定义 + impl
+// repository define + impl
 
-// repository懒加载 （Bindings）
+// repository lazy loading （Bindings）
 ```
 
 
 
-##### 5. 一些系统常量获取方法 
+##### 5. Some methods of obtaining system constants
 
 ```dart
 //Check in what platform the app is running
@@ -278,9 +276,9 @@ context.height
 
 
 
-##### 6. Binding写法
+##### 6. Binding 
 
-`使用Binding初始化所有Controller，解决重复初始化问题`
+`Use Binding to initialize all Controllers to solve the problem of repeated initialization`
 
 ```dart
 void main() {
@@ -316,21 +314,20 @@ class AllControllerBinding implements Bindings {
 
 
 
-##### 7. 其它规范
+##### 7. Other specifications
 
-* 状态相关的数据，使用 StateMixin？
+* State-related data, using StateMixin？
 
-* 使用 FlutterJsonBeanFactory插件，避免对model类文件代码入侵，不利扩展 （Json to dart
+* Use the FlutterJsonBeanFactory plug-in to avoid intrusion into the code of the model class file, which is not conducive to expansion
 
-* ~~使用 flutterassetautocompletion插件（图片资源路径补全~~
 
-#### 四、参考链接
+#### 四、Reference link
 
-[GetX插件](https://segmentfault.com/a/1190000039139198#item-2-3)
+[GetX](https://segmentfault.com/a/1190000039139198#item-2-3)
 
 [GetX Cli](https://segmentfault.com/a/1190000040705687)
 
-[Flutter实战·第二版](https://book.flutterchina.club/preface.html#%E7%AC%AC%E4%BA%8C%E7%89%88%E5%8F%98%E5%8C%96)
+[Flutter](https://book.flutterchina.club/preface.html#%E7%AC%AC%E4%BA%8C%E7%89%88%E5%8F%98%E5%8C%96)
 
 This project is a starting point for a Flutter application.
 
