@@ -1,15 +1,26 @@
-# HeyYa: Dating with Selfie Video
-HeyYa is a dating app which users must upload a selfie video. Through selfie video authentication, it is guaranteed that all users are real.
- 
-# How it works?
-You can check our online product in google: https://play.google.com/store/apps/details?id=com.heyyateam.heyya
+# HeyYa项目说明
+中文版|[英文版](https://github.com/engineerrep/HeyYa-Dating-App/blob/main/README_EN.md)
 
-# How to start further development?
-If you are interested in further development, please contact us for project deployment, and we will help you develop your own dating software.
+## 1.项目简介
+### 1.1项目概述
+Heyya是一款移动社交应用。它由Heyya团队开发,旨在让人们通过分享生活中的日常瞬间与他人建立联系。
+Heyya的主界面是瀑布流形式的动态 feed。用户可以分享照片、短视频和文本更新。用户可以通过点赞、评论和转发与其他用户互动。用户可以关注感兴趣的人,并按兴趣话题创建自己的频道。
+Heyya还有一个探索页面,用户可以浏览热门话题和频道。该应用还具有私信、故事和直播功能,可以进行更深入的社交互动。
+整体而言,Heyya是一款活跃的社交平台,鼓励用户随时随地分享生活的每一刻。该应用使用朴素的界面和流畅的用户体验来构建一个互动社区,用户可以在上面建立联系,分享经历,并发现共同的兴趣爱好。
+（Google Play链接：https://play.google.com/store/apps/details?id=com.heyyateam.heyya ）
+### 1.2项目特点
+1. 动态社交feed：Heyya的核心功能是瀑布流式的动态社交feed,让用户分享生活中的照片、短视频和生活更新。用户可以随时上传帖子,并与其他用户互动。
+2. 关注和频道:用户可以关注感兴趣的朋友和话题频道。频道内容由用户社区生成,涵盖各种话题。这使得发现共同兴趣的用户和内容变得容易。
+3. 私信和直播:Heyya不仅有社交feed,还提供私人交流的方式。用户可以通过私信进行即时通讯。Heyya也有直播功能,用户可以通过手机直播与他人互动。 
+4. 探索页面:Heyya有一个探索页面,高亮展示热门话题、频道和用户。这使新用户更容易找到自己感兴趣的内容和社区。
+5. 故事功能:Heyya允许用户创建故事,将多张照片和视频组合在一起,讲述一段生活经历或者一个项目进展。这种新的内容形式鼓励用户与他人分享更加连贯的故事。
+6. obtaining粉丝和影响力:与其他社交平台一样,Heyya也有粉丝和影响力机制。用户可以通过产生受欢迎的内容和互动来获得更高的粉丝和影响力。
 
+## 2.快速开始
 
+要运行和部署 Heyya，请按照以下步骤操作：
 
-#### Project Introduction
+##### 架构简介
 ```bash
 app
 ├── bindings # Bindings
@@ -111,7 +122,7 @@ ObxValue((data) => Switch(
 
 
 
-##### If the page has only one controller, use GetxController + GetView
+###### 如果页面只有一个控制器，则使用GetxController+GetVIEW
 
 ```dart
  class AwesomeController extends GetController {
@@ -130,10 +141,7 @@ ObxValue((data) => Switch(
    }
  }
 ```
-
-
-
-##### 2. obs Useful tips
+##### 2. 有用的提醒
 
 ```dart
 final name = 'GetX'.obs;
@@ -226,9 +234,9 @@ print( user );
 
 
 
-##### 3. Model class
+##### 3. 模型类
 
-`Model uses auto-generated plug-ins. In the generation folder, there is no intrusion into the code. Do not write custom methods in the Model class.`
+`模型使用自动生成的插件。在生成文件夹中，没有对代码的入侵。不要在Model类中编写自定义方法。`
 
 <!--GetxController，Class as data definition, business logic processing, network request-->
 
@@ -242,7 +250,7 @@ controller.updateXXX();
 
 ```
 
-##### 4. Network requests and model operations
+##### 4.网络请求和模型操作
 
 ```dart
 // repository define + impl
@@ -252,7 +260,7 @@ controller.updateXXX();
 
 
 
-##### 5. Some methods of obtaining system constants
+##### 5. 求得系统常数的几种方法
 
 ```dart
 //Check in what platform the app is running
@@ -281,7 +289,7 @@ context.height
 
 
 
-##### 6. Binding 
+##### 6.绑定
 
 `Use Binding to initialize all Controllers to solve the problem of repeated initialization`
 
@@ -317,30 +325,42 @@ class AllControllerBinding implements Bindings {
 
 ```
 
+##### 7. 其他规范
 
+- 国家相关数据，使用StateMixin？
+  
+- 使用FlutterJsonBeanFactory插件，避免干扰到模型类文件的代码，这不利于扩展。
 
-##### 7. Other specifications
+## 3.贡献指南
+欢迎大家参与贡献！HeyYa 是一个开源项目，感谢各位的热情支持。本项目遵循[ MIT 许可证](https://github.com/engineerrep/share-cv/blob/main/LICENSE)。
+### 3.1在参与贡献时，请您遵守以下指南:
 
-* State-related data, using StateMixin？
+在进行任何更改之前，请阅读我们的开源许可证及贡献指南。只接受符合[MIT许可证](https://github.com/engineerrep/share-cv/blob/main/LICENSE)的贡献。  
+我们鼓励您首先在GitHub上提交Issue并与我们讨论，以避免不必要的工作和非建设性的更改。一旦更改建议被接受，您可以通过发送拉取请求来进行更改：  
+- 请确保所有的更改都被测试覆盖，以确保不会出现意外的行为变化。测试用例应在您的拉取请求中包含。   
+- 请详细说明您的更改，提交高质量且易于理解的提拉取请求。我们会仔细审查并在必要时提出问题和请求更改。   
+- 欢迎对文档进行改进和修订。文档也包含在本项目中，与源代码一起维护。
 
-* Use the FlutterJsonBeanFactory plug-in to avoid intrusion into the code of the model class file, which is not conducive to expansion
+### 3.2提问和提交Bug报告  
+如果您在使用应用程序的过程中遇到任何疑问或错误，请在 GitHub中提交Issue。请详细说明您遇到的问题，并提供截屏或错误日志(如果有)以帮助我们理解和诊断问题。
+### 3.3功能请求和变更建议   
+如果您有任何功能请求或变更建议，请在GitHub提交Issue说明您的想法及理由。我们欢迎和鼓励社区参与，与我们一起改进和优化应用程序。
 
+## 4.许可证
+HeyYa 使用[MIT 许可证](https://github.com/engineerrep/share-cv/blob/main/LICENSE)发布。
 
-#### 4、Reference link
-
+## 5.参考链接
 [GetX](https://segmentfault.com/a/1190000039139198#item-2-3)
 
 [GetX Cli](https://segmentfault.com/a/1190000040705687)
 
 [Flutter](https://book.flutterchina.club/preface.html#%E7%AC%AC%E4%BA%8C%E7%89%88%E5%8F%98%E5%8C%96)
+这是一个Flutter应用程序的起点。  
+如果这是您的第一个Flutter项目,以下是一些入门资源:  
+•[实验室:编写您的第一个 Flutter 应用程序](https://book.flutterchina.club/codelab/first_flutter_app.html)  
+•[菜谱:有用的Flutter示例](https://book.flutterchina.club/cookbook/index.html)  
+有关开始Flutter开发的帮助,请查看[在线文档](https://flutterchina.club/),其中提供教程,示例,移动开发指南和完整的API参考。
 
-This project is a starting point for a Flutter application.
+## 6.联系我们
+感谢您对 HeyYa 项目的支持。如有任何疑问,请通过 GitHub Issues 或通过电子邮件[engineerrep@gmail.com](mailto:engineerrep@gmail.com)与我们联系。
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
