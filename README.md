@@ -351,6 +351,6 @@ class AllControllerBinding implements Bindings {
 •[菜谱:有用的Flutter示例](https://book.flutterchina.club/cookbook/index.html)  
 有关开始Flutter开发的帮助,请查看[在线文档](https://flutterchina.club/),其中提供教程,示例,移动开发指南和完整的API参考。
 
-## 6.联系我们
+## 5.联系我们
 感谢您对 HeyYa 项目的支持。如有任何疑问,请通过 GitHub Issues 或通过电子邮件[engineerrep@gmail.com](mailto:engineerrep@gmail.com)与我们联系。
 
