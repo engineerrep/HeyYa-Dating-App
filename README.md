@@ -30,14 +30,14 @@ main_dev.dart  # Development environment entry file
 main_prod.dart  # Production environment entry file
 
 
-#### 一、The project uses a third-party framework
+#### 1、The project uses a third-party framework
 
 ###### GetX (https://www.liujunmin.com/flutter/getx/introduction.html#navigation%E8%B7%AF%E7%94%B1%E8%B7%B3%E8%BD%AC) [4.6.5](https://pub.dev/packages/get)
 
 ###### Network：Dio
 
 
-#### 二、Package/Module
+#### 2、Package/Module
 
 ###### <!--Packaging tools-->
 
@@ -61,7 +61,7 @@ If there is IM, consider componentized development and avoid mixing with getx ar
 
 
 
-#### 三、Coding style
+#### 3、Coding style
 
 ##### 1. Responsive use attribute .obs writing method instead of Rx writing method
 
@@ -321,7 +321,7 @@ class AllControllerBinding implements Bindings {
 * Use the FlutterJsonBeanFactory plug-in to avoid intrusion into the code of the model class file, which is not conducive to expansion
 
 
-#### 四、Reference link
+#### 4、Reference link
 
 [GetX](https://segmentfault.com/a/1190000039139198#item-2-3)
 
