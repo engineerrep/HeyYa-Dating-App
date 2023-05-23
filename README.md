@@ -1,10 +1,15 @@
-# heyya
+# HeyYa: Dating with Selfie Video
 A dating app that user should upload selfie video as profile element.
 
+# How it works?
+You can check our online product in google: https://play.google.com/store/apps/details?id=com.heyyateam.heyya
+
+# How to start further development?
+If you are interested in further development, please contact us for project deployment, and we will help you develop your own dating software.
 
 
-#### Introduction
 
+#### Project Introduction
 ```bash
 app
 ├── bindings # Bindings
