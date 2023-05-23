@@ -332,24 +332,14 @@ class AllControllerBinding implements Bindings {
 - 使用FlutterJsonBeanFactory插件，避免干扰到模型类文件的代码，这不利于扩展。
 
 ## 3.贡献指南
-欢迎大家参与贡献！HeyYa 是一个开源项目，感谢各位的热情支持。本项目遵循[ MIT 许可证](https://github.com/engineerrep/share-cv/blob/main/LICENSE)。
-### 3.1在参与贡献时，请您遵守以下指南:
-
-在进行任何更改之前，请阅读我们的开源许可证及贡献指南。只接受符合[MIT许可证](https://github.com/engineerrep/share-cv/blob/main/LICENSE)的贡献。  
-我们鼓励您首先在GitHub上提交Issue并与我们讨论，以避免不必要的工作和非建设性的更改。一旦更改建议被接受，您可以通过发送拉取请求来进行更改：  
-- 请确保所有的更改都被测试覆盖，以确保不会出现意外的行为变化。测试用例应在您的拉取请求中包含。   
-- 请详细说明您的更改，提交高质量且易于理解的提拉取请求。我们会仔细审查并在必要时提出问题和请求更改。   
-- 欢迎对文档进行改进和修订。文档也包含在本项目中，与源代码一起维护。
+欢迎大家参与贡献！HeyYa 是一个开源项目，感谢各位的热情支持。
 
 ### 3.2提问和提交Bug报告  
 如果您在使用应用程序的过程中遇到任何疑问或错误，请在 GitHub中提交Issue。请详细说明您遇到的问题，并提供截屏或错误日志(如果有)以帮助我们理解和诊断问题。
 ### 3.3功能请求和变更建议   
 如果您有任何功能请求或变更建议，请在GitHub提交Issue说明您的想法及理由。我们欢迎和鼓励社区参与，与我们一起改进和优化应用程序。
 
-## 4.许可证
-HeyYa 使用[MIT 许可证](https://github.com/engineerrep/share-cv/blob/main/LICENSE)发布。
-
-## 5.参考链接
+## 4.参考链接
 [GetX](https://segmentfault.com/a/1190000039139198#item-2-3)
 
 [GetX Cli](https://segmentfault.com/a/1190000040705687)
