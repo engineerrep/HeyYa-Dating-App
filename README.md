@@ -4,9 +4,13 @@ English|[中文版](https://github.com/engineerrep/HeyYa-Dating-App/blob/main/RE
 ## 1. Project Overview
 ### 1.1 Project Description
 Heyya is an online dating app targeted towards young people. Its biggest feature is its 100% authentic users. During registration, users must upload real photos and verify their phone numbers to ensure that every user is a real person.
+
 Heyya is committed to creating a sincere and safe social environment. Users can meet new friends, build stable relationships, and even find suitable partners through Heyya. 
+
 Heyya uses big data algorithms to recommend the most suitable dating partners to each user. Heyya's user base is eager to meet more interesting people through mobile internet and expand their social circles in real life.
+
 Heyya encourages users to share every moment of their life anytime, anywhere. The app uses a simple interface and smooth user experience to build an interactive community where users can connect with each other, share experiences, and discover common interests. 
+
 Through its 100% authentic user social experience, Heyya attracts more young users to join, forming a positive loop. In Heyya, sincere interaction and understanding between people are especially important. This also makes Heyya a dating platform that cultivates optimistic and positive young people.
 
 (Google Play link: https://play.google.com/store/apps/details?id=com.heyyateam.heyya)
