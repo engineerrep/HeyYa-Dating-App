@@ -1,36 +1,18 @@
 # HeyYa Project Introduction
 English|[中文版](https://github.com/engineerrep/HeyYa-Dating-App/blob/main/README_CN.md)
 
-## 1. Project Overview
-### 1.1 Project Summary
-Heyya is an online dating app targeted towards young people. Its biggest feature is its 100% authentic users. During registration, users must upload real photos and verify their phone numbers to ensure that every user is a real person.
-
-Heyya is committed to creating a sincere and safe social environment. Users can meet new friends, build stable relationships, and even find suitable partners through Heyya. 
-
-Heyya uses big data algorithms to recommend the most suitable dating partners to each user. Heyya's user base is eager to meet more interesting people through mobile internet and expand their social circles in real life.
-
-Heyya encourages users to share every moment of their life anytime, anywhere. The app uses a simple interface and smooth user experience to build an interactive community where users can connect with each other, share experiences, and discover common interests. 
-
-Through its 100% authentic user social experience, Heyya attracts more young users to join, forming a positive loop. In Heyya, sincere interaction and understanding between people are especially important. This also makes Heyya a dating platform that cultivates optimistic and positive young people.
-
-(Google Play link: https://play.google.com/store/apps/details?id=com.heyyateam.heyya)
-
-### 1.2 Project Features
-1. 100% Authentic Users 
-Heyya requires users to upload genuine profile pictures and verify their phone numbers during registration, ensuring that each user is a real individual. This makes users feel more secure and trustworthy, avoiding being deceived. 
-
-2. Artificial Intelligent Recommendations 
-Heyya uses artificial intelligence and big data algorithms to recommend the most suitable social circles and potential friends for each user. These recommendations are more accurate and personalized, helping users quickly find people they are interested in.
-
-3. Positive Energy Socialization  
-Unlike other dating apps, Heyya places more importance on sincere interaction, communication, and understanding between people. This makes Heyya a social platform that cultivates optimistic and positive young people.
-
-4. Targeted Towards Young People 
-Heyya's target user group is young people who are eager to meet more new friends and expand their social circles in real life through mobile internet. Heyya is designed to meet this user demand.
-
-5. Positive Loop Effect 
-Heyya's 100% authentic user social experience attracts more users to join, and more new authentic users will also be attracted. This positive loop effect allows Heyya's user base to rapidly grow.
-
+## 1. Project Introduction
+### 1.1 Project Overview 
+Heyya is an online dating app. Its biggest feature is that all users are real people who must upload real photos and verify their phone numbers during registration. Heyya is committed to providing users with a sincere and safe dating environment, helping them expand their social circles in real life, establish stable relationships, and even find suitable partners. Heyya uses big data algorithms to recommend the most suitable dating objects for each user. Heyya's concise interface and smooth user experience provide users with an interactive platform on which they can establish contact, share experiences, and discover common interests. Heyya is dedicated to creating a positive dating platform that emphasizes the importance of sincere interaction and understanding between people. (Google Play link: https://play.google.com/store/apps/details?id=com.heyyateam.heyya)
+### 1.2 Project Features 
+1. 100% Real Users 
+Heyya requires users to upload real profile pictures and verify their phone numbers to ensure that each user is real, making users feel more secure. 
+2. AI Recommendations 
+Heyya uses data algorithms to recommend the most suitable social circles and potential friends for each user, meeting users' individual needs. 
+3. Positive Social Interaction 
+Heyya emphasizes sincere interaction and understanding between people to create a positive dating platform. 
+4. Formation of Positive Feedback Loop 
+Heyya attracts more users to join with its social experience of 100% real users, creating a positive feedback loop and rapidly increasing the number of users.
 
 ## 2. Getting Started
 
