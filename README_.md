@@ -1,5 +1,5 @@
 # HeyYa Project Description
-[中文版](https://github.com/engineerrep/HeyYa-Dating-App/blob/main/README.md)|English
+English|[中文版](https://github.com/engineerrep/HeyYa-Dating-App/blob/main/README_CN.md)
 
 ## 1.Project Introduction
 ### 1.1Project Overview
