@@ -234,7 +234,7 @@ print( user );
 
 ##### 3. Model class
 
-`模型使用自动生成的插件。在生成文件夹中，没有对代码的入侵。不要在Model类中编写自定义方法。`
+`The model uses automatically generated plugins. There is no invasion of code in the generated folder. Do not write custom methods in the Model class.`
 
 <!--GetxController，Class as data definition, business logic processing, network request-->
 
