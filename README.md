@@ -1,9 +1,22 @@
 # HeyYa Project Introduction
 English|[中文版](https://github.com/engineerrep/HeyYa-Dating-App/blob/main/README_CN.md)
 
+#### We offer free backend support unless you ask for customized features. If you are a front-end engineer, you can get this android app up running in a few hours and for free.
+
+#### Please contact us through GitHub Issues or by email at [engineerrep@gmail.com](mailto:engineerrep@gmail.com).
+
 ## 1. Project Introduction
 ### 1.1 Project Overview 
-Heyya is an online dating app. Its biggest feature is that all users are real people who must upload real photos and verify their phone numbers during registration. Heyya is committed to providing users with a sincere and safe dating environment, helping them expand their social circles in real life, establish stable relationships, and even find suitable partners. Heyya uses big data algorithms to recommend the most suitable dating objects for each user. Heyya's concise interface and smooth user experience provide users with an interactive platform on which they can establish contact, share experiences, and discover common interests. Heyya is dedicated to creating a positive dating platform that emphasizes the importance of sincere interaction and understanding between people. (Google Play link: https://play.google.com/store/apps/details?id=com.heyyateam.heyya)
+Heyya is an innovative online dating app. Its biggest feature is that all users are real people. Each user must upload real photos by selfie and verify their phone numbers during reqistration.  
+  
+Heyya is committed to providing users with a sincere and safe dating environment, helping them expand ther social circles in real life, establish stable relationships and find suitable partners.  
+  
+Heyya uses big data algorithms to recommend the most suitable match for each user.  
+  
+Hevva's concise interface and smooth user experience provide users with an interactive platform on which they can establish contact, share experiences and discover common interests.  
+  
+Heyya is dedicated to creating a positive dating platform that emphasizes the importance of sincere interaction and understanding between singles.
+(Google Play link: https://play.google.com/store/apps/details?id=com.heyyateam.heyya)
 ### 1.2 Project Features 
 1. 100% Real Users 
 Heyya requires users to upload real profile pictures and verify their phone numbers to ensure that each user is real, making users feel more secure. 
