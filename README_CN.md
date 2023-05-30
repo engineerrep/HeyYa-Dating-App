@@ -16,6 +16,7 @@ Heyya使用大数据算法为每个用户推荐最合适的匹配。
 Heyya简洁的界面和流畅的用户体验为用户提供了一个互动平台，他们可以在这里建立联系，分享经验并发现共同兴趣。
 
 Heyya致力于创建一个强调单身人士之间真诚互动和理解重要性的积极约会平台。
+
 (Google Play链接:https://play.google.com/store/apps/details?id=com.heyyateam.heyya)
 ### 1.2项目特点 
 1. 100%真实用户 
