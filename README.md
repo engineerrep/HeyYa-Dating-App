@@ -16,6 +16,7 @@ Heyya uses big data algorithms to recommend the most suitable match for each use
 Hevva's concise interface and smooth user experience provide users with an interactive platform on which they can establish contact, share experiences and discover common interests.  
   
 Heyya is dedicated to creating a positive dating platform that emphasizes the importance of sincere interaction and understanding between singles.
+
 (Google Play link: https://play.google.com/store/apps/details?id=com.heyyateam.heyya)
 ### 1.2 Project Features 
 1. 100% Real Users 
